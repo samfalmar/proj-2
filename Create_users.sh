@@ -21,7 +21,7 @@ clear
 	read  CONTRASENYA
 
 #Create the user
-	useradd -m -c $NOM_REAL $USER_NAME
+	useradd -m -c $NOM_REAL $USER_NAME 2> /dev/null
 
 #Check if the useradd command succeeded
 	if [ $? -ne 0 ]
