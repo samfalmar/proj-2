@@ -14,8 +14,8 @@ clear
 	read  USER_NAME
 	if [ ! -z "$USERNAME" ]
 	then
-			echo "Introdueix el teu nom d'usuari correctament"
-			exit 1
+		echo "Introdueix el teu nom d'usuari correctament"
+		exit 1
 	fi
 
 #Get the real name
@@ -23,8 +23,8 @@ clear
 	read  NOM_REAL
 	if [ ! -z "$NOM_REAL" ]
 	then
-			echo "Introdueix el teu nom correctament"
-			exit 1
+		echo "Introdueix el teu nom correctament"
+		exit 1
 	fi
 #Get a random password
 	CONTRASENYA=
