@@ -12,7 +12,7 @@ clear
 #Get the username
 	echo "Quin nom d'usuari vols?:"
 	read  USER_NAME
-	if [ ! -z "$USERNAME" ]
+	if [ -z "$USER_NAME" ]
 	then
 		echo "Introdueix el teu nom d'usuari correctament"
 		exit 1
@@ -21,7 +21,7 @@ clear
 #Get the real name
 	echo "Quin es el teu nom real?:"
 	read  NOM_REAL
-	if [ ! -z "$NOM_REAL" ]
+	if [ -z "$NOM_REAL" ]
 	then
 		echo "Introdueix el teu nom correctament"
 		exit 1
