@@ -67,3 +67,6 @@ clear
 	echo 'I el host es:' $HOSTNAME
 	echo ''
 	echo '-----------------------------------------'
+
+
+skere
