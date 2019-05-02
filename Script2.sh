@@ -45,7 +45,7 @@ clear
 #Check if the passwd command succeeded
 	if [ $? -ne 0 ]
 	 then
-  	 echo 'La contrasenya no s.ha establert correctament.'
+  	 echo "La contrasenya no s'ha establert correctament."
   	exit 1
 	fi
 
