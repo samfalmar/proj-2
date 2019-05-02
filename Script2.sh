@@ -27,7 +27,8 @@ clear
 		exit 1
 	fi
 #Get a random password
-	CONTRASENYA=
+	CONTRASENYA=< /dev/urandom tr -dc A-Za-z0-9 | head -c10
+
 	
 #Create the user
 	useradd -m -c $NOM_REAL $USER_NAME
