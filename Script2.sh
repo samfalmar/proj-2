@@ -27,7 +27,7 @@ clear
 		exit 1
 	fi
 #Get a random password
-	CONTRASENYA=< /dev/urandom tr -dc A-Za-z0-9 | head -c10
+	  CONTRASENYA=`shuf -i 1000000-9999999 -n 1`
 
 	
 #Create the user
