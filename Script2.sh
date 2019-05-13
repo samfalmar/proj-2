@@ -69,3 +69,13 @@ clear
 	echo ''
 	echo '-----------------------------------------'
 
+
+
+
+#git clone https://github.com/samfalmar/Proj3
+#git config --global user.name "samfalmar"
+#git config --global user.email "a15samfalmar@iam.cat"
+#git add .
+#git commit -m "Comment"
+#git push origin master
+
